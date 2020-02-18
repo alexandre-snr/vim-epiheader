@@ -29,6 +29,8 @@ Example using Vundle:
  1. add `Plugin 'alexandre-snr/vim-epiheader'` to your .vimrc
  2. reload the .vimrc file with `:source %`
  3. run `:PluginInstall`
+ 4. (optional) add a keybinding by adding `nnoremap <C-a>  <Esc>:EpitechHeader<CR>` to your .vimrc
+    i've used Ctrl+a here, but feel free to change
 
 ## License
 Feel free to do anything with this.
