@@ -1,7 +1,7 @@
 # EpiHeader for vim
 
 ## What is it ?
-EpiHeader for vim is a vim plugin that allows you to print (post-2017) epitech headers in file.
+EpiHeader for vim is a vim plugin that allows you to print (post-2017) epitech headers in source files without entering project name or description (it uses the working directory and the file name without extension).
 It exposes a command `:EpitechHeader` that prints the header as follow:
 
     /*
